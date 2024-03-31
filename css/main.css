@@ -208,12 +208,79 @@ flex-direction: row-reverse;
   
 }
 
-.footer{
-height: 100px;
-width:100%;
-background-color:#fff;
-margin-top: auto;
 
+
+.container6 {
+    font-family: "Montserrat", sans-serif;
+    color: black; 
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 30px;
+}
+
+.address {
+    margin: 0px 100px 10px 30px; 
+}
+
+.number {
+    margin: 0px 15px 10px 100px; 
+}
+
+.network {
+    margin: 0px 15px 10px 400px; 
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.vk_img {
+    display: flex;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.github_img {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.infotxt {
+    margin: 40px 0px 40px 0px;
+}
+
+.network_txt { 
+    color: #ebebeb;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left:20px;
+}
+
+.network_txt1 {
+    display: flex;
+    justify-content: center;
+    color: #ebebeb;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-left: 20px;  
+}
+
+.vk_github {
+    width: 50px;
+    height: 50px;
+}
+
+.network a:hover {
+    color: rgb(83, 74, 206);
 }
 
 
